@@ -27,3 +27,5 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 + 专辑 https://service.picasso.adesk.com/v1/wallpaper/album
 + 专辑-详情 https://service.picasso.adesk.com/v1/wallpaper/album/${id}/wallpaper
 + 图片评论 https://service.picasso.adesk.com/v2/wallpaper/wallpaper/${id}/comment
+
+**如果使用列出的接口地址无法使用的话，请查看接口文档，使用其中的地址**

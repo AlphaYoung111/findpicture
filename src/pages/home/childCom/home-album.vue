@@ -12,7 +12,7 @@
 
     <!-- 列表 开始 -->
     <view class="album-list">
-      <navigator class="album-item" v-for="item in albums" :key="item.id" url="/pages/album/album">
+      <navigator class="album-item" v-for="item in albums" :key="item.id" :url="`/pages/album/album?id=${item.id}`">
         <view class="album-image">
           <image :src="item.cover" mode="aspectFill" />
         </view>
@@ -59,7 +59,8 @@ export default {
      */
     async getAlbumData() {
       let result = await this.$request({
-        url: "https://service.picasso.adesk.com/v1/wallpaper/album",
+        // url: "https://service.picasso.adesk.com/v1/wallpaper/album",
+        url:'http://157.122.54.189:9088/image/v1/wallpaper/album',
         data: this.alParams
       });
       if (result.res.album.length === 0) {
