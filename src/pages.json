@@ -1,6 +1,12 @@
 {
   "pages": [
     {
+      "path": "pages/video/video",
+      "style": {
+        "navigationBarTitleText": "精美视频"
+      }
+    },
+    {
       "path": "pages/home/home",
       "style": {
         "navigationBarTitleText": "首页"
@@ -12,12 +18,7 @@
         "navigationBarTitleText": "横屏"
       }
     },
-    {
-      "path": "pages/video/video",
-      "style": {
-        "navigationBarTitleText": "精美视频"
-      }
-    },
+
     {
       "path": "pages/search/search",
       "style": {
@@ -40,6 +41,18 @@
       "path": "pages/imgDetail/img-detail",
       "style": {
         "navigationBarTitleText": "图片详情"
+      }
+    },
+    {
+      "path": "pages/img-category/img-category",
+      "style": {
+        "navigationBarTitleText": "分类详情"
+      }
+    },
+    {
+      "path": "pages/video-play/video-play",
+      "style": {
+        "navigationBarTitleText": "视频播放"
       }
     }
   ],

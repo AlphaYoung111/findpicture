@@ -53,7 +53,7 @@ export default {
       // 选项卡选项
       items: ["推荐", "分类", "最新", "专辑"],
       // 选中的索引值
-      current: 3
+      current: 1
     };
   },
   methods: {
